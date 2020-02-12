@@ -1,5 +1,5 @@
-def reverse_each_word(sentence1)
+def reverse_each_word(sentence)
   
-  sentence1.collect {|word| word.reverse}
+  sentence.collect {|word| "#{word.reverse}"}
   
 end
