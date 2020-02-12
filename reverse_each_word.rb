@@ -3,5 +3,6 @@ def reverse_each_word(array)
   array.each {|word|reversed_word << word.reverse}
   reversed_word
   
-  array.collect {|word|)
+  array.collect {|word| word.reverse)
+  
 end
